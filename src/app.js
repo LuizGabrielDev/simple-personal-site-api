@@ -30,5 +30,4 @@ initDatabase();
 
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
-    console.log(`HOST: ${process.env.DB_HOST}`);
 });
